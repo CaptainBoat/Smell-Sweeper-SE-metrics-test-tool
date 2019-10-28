@@ -1,16 +1,16 @@
 package smellsweeper;
 
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 public class LOC {
 	int LineOfCode;
 	String name;
+	int CommentCount;
+	boolean visited;
 	
-    public LOC(String name, int LineOfCode) 
+    public LOC(String name, int[] LineOfCode, boolean visited) 
     { 
-        this.LineOfCode = LineOfCode; 
+    	this.visited = visited;
+    	this.CommentCount = LineOfCode[1];
+    	this.LineOfCode = LineOfCode[0]; 
         this.name = name;	
     }
         
