@@ -1,4 +1,4 @@
-# Smell-Sweeper-v0.9
+# Smell-Sweeper-v1.0
 
 Smell Sweeper is a Software Quality Testing Tool to help you identify more than 8 types of common bad designs in your Java-based project.
 
